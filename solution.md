@@ -31,13 +31,13 @@ function square(num) {
 ## Sum Arrays
 
 ```js
-sum = function (arr) {
+function sum(numbers) {
   'use strict'
-  let sumArr = 0
-  for (let i = 0; i < arr.length; i++) {
-    sumArr += arr[i]
+  let sumNumbers = 0
+  for (let i = 0; i < numbers.length; i++) {
+    sumNumbers += numbers[i]
   }
-  return sumArr
+  return sumNumbers
 }
 ```
 
